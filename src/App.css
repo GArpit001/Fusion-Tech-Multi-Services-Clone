@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+.group:hover .img-effect {
+  transform: rotateY(360deg);
+  transition: all 0.5s ease-in-out;
+}
+.group:hover .first::before {
+  display: block;
+}
+
+.group::before {
+  content: " ";
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  padding: 80px;
+  border-radius: 100%;
+}
+
+.group:hover::before {
+  content: " ";
+  position: absolute;
+  right: -50px;
+  top: -50px;
+  padding: 80px;
+  border-radius: 100%;
+  /* background-color : rgba(223, 49, 49, 0.615); */
+  background-color: rgba(207, 47, 47, 0.609);
+  transition: all 0.1s ease;
+}
+
+.main {
+  display: inline-block;
+  position: relative;
+}
+.btn {
+  padding: 12px 14px;
+  border: none;
+  cursor: pointer;
+}
+.cont {
+  display: none;
+}
+
+.cont:hover {
+  display: block;
+}
+
+.main:hover .cont {
+  display: block;
+}
+
+.btn:hover .cont {
+  display: block;
+}
+
+.cont .link {
+  color: black;
+  display: block;
+  padding: 12px 16px;
+}
+.cont .link:hover {
+  background-color: #f1f1f1;
+  color: rgb(183, 41, 41);
+}
+
+.bgs {
+  background-image: url("./assets/img/page-banner-bg.png");
+  background-repeat: no-repeat;
+}
+
+.back {
+  background-image: url("./assets/img/footer.png");
+}
+
+.footBack {
+  background-image: url("./assets/img/footer-bg.png");
+  background-size: cover;
+}
+
+
