@@ -4,7 +4,7 @@ import Img2 from "../assets/img/1new.png"
 
 const About = () => {
     return (
-        <div className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-34 py-8'>
+        <div className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-34 pt-24'>
             <div className='flex flex-col lg:flex-row w-full gap-6 sm:gap-8 justify-between relative pb-8 sm:pb-14'>
                 <div className="leftAbout flex flex-col sm:flex-row gap-4 sm:gap-5 w-full lg:w-[50%]">
                     <div className='w-full sm:w-60 h-64 sm:h-[16rem]'>

@@ -5,7 +5,7 @@ import icon3 from "../assets/img/aring.png"
 
 const Solutions = () => {
     return (
-        <div className='px-4 sm:px-8 md:px-16 lg:px-24 xl:px-34 py-8'>
+        <div className='py-8'>
             <div>
                 <div className='text-red-700 flex gap-3 sm:gap-5 items-center'>
                     <i className="fa-solid fa-equals text-2xl sm:text-4xl font-light"></i>
