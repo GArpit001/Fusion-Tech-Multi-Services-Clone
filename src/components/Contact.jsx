@@ -12,16 +12,20 @@ const Contact = () => {
             <h1 className='text-xl sm:text-2xl md:text-3xl font-medium mb-4 sm:mb-6'>
               Contact Us
             </h1>
-            <div className='flex flex-col gap-4 sm:gap-6 md:gap-8'>
-              <input type="text" className='w-full py-2 sm:py-3 bg-gray-100 border border-gray-300 rounded-md text-sm sm:text-base placeholder-gray-500' placeholder='Email' />
-              <input type="text" className='w-full py-2 sm:py-3 bg-gray-100 border border-gray-300 rounded-md text-sm sm:text-base placeholder-gray-500' placeholder='Name' />
-              <textarea className='w-full h-24 sm:h-32 md:h-36 py-2 sm:py-3 bg-gray-100 border border-gray-300 rounded-md text-sm sm:text-base placeholder-gray-500' placeholder='Message' name="" id=""></textarea>
-            </div>
-            <div className='mt-4 sm:mt-6 md:mt-8'>
-              <button className='bg-red-700 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-md text-white font-medium text-sm sm:text-base'>
-                Submit <i className="fa-solid fa-angles-right"></i>
-              </button>
-            </div>
+            <form>
+
+              <div className='flex flex-col gap-4 sm:gap-6 md:gap-8'>
+                <input type="text" className='w-full py-2 sm:py-3 bg-gray-100 border border-gray-300 rounded-md text-sm sm:text-base placeholder-gray-500' placeholder='Email' />
+                <input type="text" className='w-full py-2 sm:py-3 bg-gray-100 border border-gray-300 rounded-md text-sm sm:text-base placeholder-gray-500' placeholder='Name' />
+                <textarea className='w-full h-24 sm:h-32 md:h-36 py-2 sm:py-3 bg-gray-100 border border-gray-300 rounded-md text-sm sm:text-base placeholder-gray-500' placeholder='Message' name="" id=""></textarea>
+              </div>
+              <div className='mt-4 sm:mt-6 md:mt-8'>
+                <button className='bg-red-700 px-6 sm:px-8 md:px-10 py-2 sm:py-3 rounded-md text-white font-medium text-sm sm:text-base'>
+                  Submit <i className="fa-solid fa-angles-right"></i>
+                </button>
+              </div>
+            </form>
+
           </div>
         </div>
         <div className='w-full md:w-[60%]'>
