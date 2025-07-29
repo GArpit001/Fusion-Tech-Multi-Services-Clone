@@ -41,7 +41,7 @@ const Navbar = () => {
                 </button>
 
                 <div className={`${isMenuOpen ? 'flex' : 'hidden'
-                    } flex justify-center lg:w-[100%] sm:flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 md:gap-16 font-[600] w-full sm:w-auto mt-4 sm:mt-0 absolute sm:static top-16 left-0 bg-white sm:bg-transparent w-full sm:w-auto px-4 sm:px-0 pb-4 sm:pb-0 shadow sm:shadow-none`}>
+                    } flex  lg:w-[100%] sm:flex flex-col sm:flex-row justify-center gap-4 sm:gap-8 md:gap-16 font-[600]  mt-4 sm:mt-0 absolute sm:static top-16 left-0 bg-white sm:bg-transparent w-full sm:w-auto px-4 sm:px-0 pb-4 sm:pb-0 shadow sm:shadow-none`}>
                     <Link className='text-black hover:text-red-700 transition duration-300 text-sm sm:text-base' onClick={() => { refre(); setIsMenuOpen(false); }} to="/">Home</Link>
                     <div className='text-black hover:text-red-700 transition duration-300 relative main'>
                         <span className='btn text-sm sm:text-base'>

@@ -26,13 +26,14 @@ function App() {
       <Routes>
 
         <Route path='/' element={<Home />} />
-        <Route path='/contact' element={<Contact />} />
         <Route path='/who-we-are' element={<About_Who />} />
         <Route path='our-mission-&-vision' element={<About_Our />} />
         <Route path='company-Profile' element={<About_Profile />} />
         <Route path='/staffing' element={<Service_Staff />} />
         <Route path='/RPO' element={<Service_RPO />} />
         <Route path='/project-consultancy' element={<Service_Project />} />
+        <Route path='/contact' element={<Contact />} />
+
 
 
 
