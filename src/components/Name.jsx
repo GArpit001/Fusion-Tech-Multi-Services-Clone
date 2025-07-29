@@ -19,17 +19,17 @@ const Name = () => {
     })
     const finalWorld = mixLetter.join(" ")
 
-    useEffect(() => {
-        if (location.pathname === "/") {
+ const refre = () => {
+        useEffect(() => {
             navigation("/")
-        }
-    }, [location.pathname, navigation])
+        }, [])
+    }
 
     return (
         <div className='bg-[#141414] w-full h-64 sm:h-80 md:h-96 lg:h-[420px] px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 py-8 sm:py-12 md:py-16'>
             <div>
                 <ul className='text-white list-none flex gap-3 sm:gap-5 items-center'>
-                    <Link className='hover:text-red-700 transition-all duration-500 cursor-pointer text-sm sm:text-base' to="/" >
+                    <Link className='hover:text-red-700 transition-all duration-500 cursor-pointer text-sm sm:text-base' onClick={() => { refre() }} to="/" >
                         HOME
                     </Link>
                     <li className='text-gray-500'>|</li>
